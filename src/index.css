@@ -1,0 +1,158 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.main{
+/* this is adjusting our main stack */
+  background-color: rgb(67, 14, 14);
+  /* background-color: rgb(87, 21, 21); */
+
+}
+
+.cardd{
+
+  /* background-Color: #1e1e1e; */
+
+background-color: rgb(23, 85, 88);
+
+  /* color: white */
+
+
+
+}
+
+.headstuff{
+
+margin-left: 20px;
+font-size: 30px;
+align-self: center;
+color: white;
+border-width: 2px;
+border:#FC1503;
+/* background-color: green; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #FC1503 !important;
+  color: white !important;
+}
+
+.category-btn:hover span{
+  color: white !important;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width: 500px;
+  background-color: black;
+  color: white;
+}
+
+.category-btn{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.category-btn2{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.category-btn2:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.category-btn2:hover span{
+  color: white !important;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .category-btn{
+    margin: 10px;
+  }
+  .category-btn2{
+    margin: 10px;
+  }
+  .search-bar{
+    width:450px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .copyright{
+    display:none !important;
+  }
+
+  .search-bar{
+    width:350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+  .search-bar{
+    width:200px;
+  }
+}
